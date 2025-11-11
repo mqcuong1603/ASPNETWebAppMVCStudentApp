@@ -30,5 +30,6 @@ namespace ASPNETWebAppMVCStudentApp.Models
         public virtual DbSet<Enrollments> Enrollments { get; set; }
         public virtual DbSet<Instructors> Instructors { get; set; }
         public virtual DbSet<Students> Students { get; set; }
+        public virtual DbSet<tblUser> tblUser { get; set; }
     }
 }
